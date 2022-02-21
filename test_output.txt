@@ -1,0 +1,44 @@
+Tokens: 
+
+(:SYMBOL
+1:NUMBER
++:SYMBOL
+12:NUMBER
+-:SYMBOL
+2:NUMBER
+*:SYMBOL
+4:NUMBER
+):SYMBOL
++:SYMBOL
+6:NUMBER
+-:SYMBOL
+8:NUMBER
+*:SYMBOL
+2:NUMBER
+/:SYMBOL
+4:NUMBER
++:SYMBOL
+2:NUMBER
+
+AST: 
+
++:SYMBOL
+         +:SYMBOL
+                  +:SYMBOL
+                           1:NUMBER
+                           -:SYMBOL
+                                    12:NUMBER
+                                    *:SYMBOL
+                                             2:NUMBER
+                                             4:NUMBER
+                  -:SYMBOL
+                           6:NUMBER
+                           /:SYMBOL
+                                    *:SYMBOL
+                                             8:NUMBER
+                                             2:NUMBER
+                                    4:NUMBER
+         2:NUMBER
+
+
+Output: 9
