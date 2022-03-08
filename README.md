@@ -1,4 +1,4 @@
-# Interpreter-
+# Interpreter
 Interpreter for a simple imperative programming language
 
 Scanner Specification There are four types of tokens in our language, defined by the following regular
